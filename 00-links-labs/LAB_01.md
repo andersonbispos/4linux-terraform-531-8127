@@ -17,7 +17,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/seu/path/para/arquivo.json"
 ```
 
 2. Adicionar `ID do projeto` GCP:
-```sh
+```shs
 export GOOGLE_PROJECT="seu-project-id"
 ```
 
@@ -37,7 +37,7 @@ EOF
 ```go
 provider "google" {
   project     = "project-id"
-  credentials = "/c/path/para/arquivo.json"
+  credentials = file("c:/path/para/arquivo.json")
 }
 ```
 ---
