@@ -1,5 +1,5 @@
 resource "google_compute_instance" "vm1" {
-  name         = "test"
+  name         = "vm1"
   machine_type = "e2-standard-2"
   zone         = "us-central1-a"
 
@@ -10,10 +10,6 @@ resource "google_compute_instance" "vm1" {
   }
 
   network_interface {
-    network = "default"
+    network = "vpc-network"
   }
-
-  /* attached_disk {
-    source = "test-disk"
-  } */
 }
