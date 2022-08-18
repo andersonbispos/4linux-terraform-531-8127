@@ -112,7 +112,7 @@ Caso haja qualquer erro, leia atentamente o terminal.
 
 1. Crie um novo arquivo de de provider e inicialize o Provider
 
-2. Crie o código para uma nova rede no *modo auto* (nome sugerido: vpc-lab01). *Valide*, *planeje* e *aplique* as alterações.
+2. Crie o código para uma nova VPC no *modo auto* (nome sugerido: vpc-lab01). *Valide*, *planeje* e *aplique* as alterações.
 
 3. Crie o código para um disco de persistente de 30GB, do **tipo balanceado**. *Valide*, *planeje* e *aplique* as alterações. (dica: consulte na documentação da GCP os tipos existentes de disco e como referenciar o tipo balanceado)
 
