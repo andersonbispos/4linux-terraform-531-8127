@@ -91,6 +91,7 @@ Da mesma forma que fizemos com o `apply`, aqui também podemos passar o subcoman
 2. [Google Compute Network](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_network "Google Compute Network")
 3. [Compute Instance - Attached Disk](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance#nested_attached_disk "Attached Disk")
 4. [Compute Instance - Compute Instance](https://registry.terraform.io/providers/hashicorp/google/latest/docs/resources/compute_instance "Compute Instance - Compute Instance")
+5. [Images List](https://cloud.google.com/compute/docs/images/os-details?hl=pt-br "Images List")
 ---
 
 #### Practice Labs - Lab 01: 
