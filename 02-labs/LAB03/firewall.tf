@@ -3,6 +3,10 @@ resource "google_compute_firewall" "allow_ssh" {
   network = google_compute_network.tf_vpc_lab.self_link
 
   allow {
+    protocol = "icmp"
+  }
+
+  allow {
     protocol = "tcp"
     ports    = ["22"]
   }
