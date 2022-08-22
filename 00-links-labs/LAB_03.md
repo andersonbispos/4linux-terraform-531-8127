@@ -47,7 +47,7 @@ Caso haja qualquer erro, leia atentamente o terminal.
 
 8. Valide via `terraform state list` e também via console que o ambiente foi criado corretamente.
 
-##### Alterando o ambiente de processamento para uso de variáveis
+##### Preparando o ambiente de processamento
 
 **- Na segunda parte do LAB** será criado um disco pra dados que vai ser apresentando a instancia de db e duas instâncias de webserver que devem ter uma referência explicita ao servidor dbserver1.
 
