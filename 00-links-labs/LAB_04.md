@@ -53,7 +53,7 @@ O nome de um bucket precisa ser único a nível de toda a gcp, desse modo pode s
 
 ##### Usando o state remoto uma estrutura de exemplo
 
-10. Na pasta original do lab03 altere o bloco `terraform` incluindo a configuração de backend apontando para o bucket criado.
+10. Na pasta original do lab04 altere o bloco `terraform` incluindo a configuração de backend apontando para o bucket criado.
 
 11. Execute novamente o terraform init de modo a transferir o arquivo de state para o bucket.
 
