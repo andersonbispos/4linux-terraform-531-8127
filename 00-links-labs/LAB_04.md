@@ -41,7 +41,7 @@ Utilize referências implicitas e explicitas se necessário.
 
 ##### Usando o state remoto uma estrutura de exemplo
 
-7. Crie um novo diretorio (state) dentro do diretorio lab03 para armazenar as definições de state
+7. Crie um novo diretorio (state) dentro do diretorio lab04 para armazenar as definições de state
 
 8. Copie o arquivo de configuração do provider para o diretorio state.
 
