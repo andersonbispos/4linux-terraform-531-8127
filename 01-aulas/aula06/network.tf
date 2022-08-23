@@ -1,8 +1,6 @@
 resource "google_compute_network" "tf_vpc_lab" {
 
-  name = "tf-vpc-lab"
+  name = var.vpc_name
 
-  auto_create_subnetworks         = false
-  delete_default_routes_on_create = false
-  enable_ula_internal_ipv6        = false
+  auto_create_subnetworks = var.vpc_option_auto_create_subnets
 }

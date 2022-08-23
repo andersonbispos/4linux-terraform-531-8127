@@ -1,4 +1,4 @@
-resource "google_compute_firewall" "allow_ssh" {
+/* resource "google_compute_firewall" "allow_ssh" {
 
   name    = "allow-ssh"
   network = google_compute_network.tf_vpc_lab.self_link
@@ -15,4 +15,4 @@ resource "google_compute_firewall" "allow_ssh" {
     ports    = ["22"]
     protocol = "tcp"
   }
-}
+} */
