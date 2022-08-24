@@ -1,1 +1,0 @@
-vpc_option_auto_create_subnets = false
