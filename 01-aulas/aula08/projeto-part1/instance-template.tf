@@ -2,8 +2,6 @@ resource "google_compute_instance_template" "default" {
   name        = "appserver-template"
   description = "This template is used to create app server instances."
 
-  /* tags = ["webapps"] */
-
   tags = ["webapp"]
 
   instance_description = "Instancia criada via template"
