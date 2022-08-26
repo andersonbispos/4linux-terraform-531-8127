@@ -25,6 +25,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_vpc_name"></a> [vpc\_name](#input\_vpc\_name) | Nome padrão da VPC | `string` | `"vpc-example"` | no |
 | <a name="input_vpc_option_auto_create_subnets"></a> [vpc\_option\_auto\_create\_subnets](#input\_vpc\_option\_auto\_create\_subnets) | Define se devem ser criadas subnets automaticamente | `bool` | n/a | yes |
+| <a name="input_vpc_project"></a> [vpc\_project](#input\_vpc\_project) | vpc\_project | `string` | n/a | yes |
 
 ## Outputs
 
