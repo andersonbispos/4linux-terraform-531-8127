@@ -3,7 +3,7 @@ resource "google_compute_network" "vpc_network" {
 
   auto_create_subnetworks = var.vpc_option_auto_create_subnets
 
-  vpc_project = var.vpc_project
+  project = var.vpc_project
 }
 
 resource "google_compute_firewall" "allow_default_ports" {
@@ -11,7 +11,7 @@ resource "google_compute_firewall" "allow_default_ports" {
   name    = "allow-default-ports"
   network = google_compute_network.vpc_network.self_link
 
-  vpc_project = var.vpc_project
+  project = var.vpc_project
 
   allow {
     protocol = "icmp"
