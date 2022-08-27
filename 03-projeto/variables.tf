@@ -28,5 +28,5 @@ variable "default_subnet_regions" {
 variable "default_group_sizes" {
   type        = list(number)
   description = "Regioes padroes a serem criadas as subnets"
-  default     = [2, 2, 2]
+  default     = [0, 0, 2]
 }
