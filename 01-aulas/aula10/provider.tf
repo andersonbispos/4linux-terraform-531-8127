@@ -12,3 +12,9 @@ provider "google" {
   project     = "lab-terraform-8127"
   region      = "us-central1"
 }
+
+provider "google-beta" {
+  credentials = "/Users/anderson/Documents/gcp-svc/lab-terraform-8127-a61476b430e2.json"
+  project     = "lab-terraform-8127"
+  region      = "us-central1"
+}
