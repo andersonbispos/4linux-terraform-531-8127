@@ -1,4 +1,4 @@
-resource "google_compute_instance" "vm1" {
+/* resource "google_compute_instance" "vm1" {
   name         = "test"
   machine_type = "e2-standard-2"
   zone         = "us-central1-a"
@@ -14,7 +14,7 @@ resource "google_compute_instance" "vm1" {
     subnetwork = "test-subnetwork"
   }
 
-  /* attached_disk {
+  attached_disk {
     source = "test-disk"
-  } */
-}
+  }
+} */
