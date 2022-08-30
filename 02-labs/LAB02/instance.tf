@@ -1,6 +1,6 @@
 resource "google_compute_instance" "vm1" {
   name         = "test"
-  machine_type = "e2-standard-2"
+  machine_type = "e2-micro"
   zone         = "us-central1-a"
 
   boot_disk {
@@ -10,11 +10,11 @@ resource "google_compute_instance" "vm1" {
   }
 
   network_interface {
-    network = "vpc-network"
-    subnetwork = "test-subnetwork"
+    network = "vpc-lab02"
+
+    access_config {
+      
+    }
   }
 
-  attached_disk {
-    source = "test-disk"
-  }
 }

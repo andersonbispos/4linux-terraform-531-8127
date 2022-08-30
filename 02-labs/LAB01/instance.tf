@@ -1,7 +1,7 @@
 resource "google_compute_instance" "vm1" {
-  name         = "test"
+  name         = "vm1"
   machine_type = "e2-standard-2"
-  zone         = "us-central1-a"
+  zone         = "southamerica-east1-a"
 
   boot_disk {
     initialize_params {
@@ -10,11 +10,10 @@ resource "google_compute_instance" "vm1" {
   }
 
   network_interface {
-    network = "vpc-network"
-    subnetwork = "test-subnetwork"
-  }
+    network = "default"
 
-  attached_disk {
-    source = "test-disk"
+    access_config {
+      // Ephemeral public IP
+    }
   }
 }
